@@ -37,6 +37,22 @@ const userSchema  = new Schema({
     verifyed: {
         type: Boolean,
         default: false
+    },
+    liked_songs: {
+        type: Array,
+        default: []
+    },
+    liked_playlist: {
+        type: Array,
+        default: []
+    },
+    created_playlist: {
+        type: Array,
+        default: []
+    },
+    subscribed_artist: {
+        type: Array,
+        default: []
     }
 })
 
